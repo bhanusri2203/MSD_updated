@@ -2,7 +2,7 @@ import axios from "axios";
 
 // Base API configuration
 const API = axios.create({
-  baseURL:"https://msd-full-stack.onrender.com/api",
+  baseURL:"https://msd-updated.onrender.com//api",
 });
 
 // Automatically attach token to protected requests
