@@ -1,0 +1,47 @@
+.order-summary {
+  max-width: 700px;
+  margin: 50px auto;
+  background: #fff8f0;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(255, 138, 0, 0.3);
+  text-align: center;
+}
+
+.order-info {
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.order-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.order-table th, .order-table td {
+  border: 1px solid #ffb56b;
+  padding: 10px;
+}
+
+.order-table th {
+  background-color: #ffe4c4;
+}
+
+.total {
+  color: #e45c00;
+  font-size: 20px;
+}
+
+.back-btn {
+  background-color: #ff6b00;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.back-btn:hover {
+  background-color: #e45c00;
+}
