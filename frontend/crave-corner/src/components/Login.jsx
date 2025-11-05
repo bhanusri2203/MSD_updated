@@ -13,7 +13,7 @@ const Login = ({ setIsLoggedIn }) => {
     try {
       // ✅ Correct backend URL
       const response = await fetch(
-        `${process.env.REACT_APP_API_URL || "https://msd-full-stack.onrender.com"}/api/login`,
+        `${process.env.REACT_APP_API_URL || "https://msd-updated.onrender.com/"}/api/login`,
         {
           method: "POST",
           headers: { "Content-Type": "application/json" },
