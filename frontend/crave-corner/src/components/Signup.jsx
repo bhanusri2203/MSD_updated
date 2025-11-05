@@ -17,7 +17,7 @@ const Signup = () => {
 
     try {
       // ✅ Use environment variable or fallback to your Render backend URL
-      const apiUrl = process.env.REACT_APP_API_URL || "https://msd-full.onrender.com";
+      const apiUrl = process.env.REACT_APP_API_URL ||"https://msd-updated.onrender.com/";
 
       const response = await fetch(`${apiUrl}/api/signup`, {
         method: "POST",
